@@ -19,7 +19,7 @@ See the notebook here: [bert-starter.ipynb](bert-starter.ipynb)
 You can run this notebook in SaturnCloud:
 
 <p align="center">
-    <a href="https://app.community.saturnenterprise.io/dash/resources?recipeUrl=https://raw.githubusercontent.com/DataTalksClub/kaggle-qa-challenge-starter/main/bert-baseline-jupyter-recipe.yaml" target="_blank" rel="noopener">
+    <a href="https://app.community.saturnenterprise.io/dash/resources?recipeUrl=https://raw.githubusercontent.com/DataTalksClub/kaggle-qa-challenge-starter/main/bert-baseline-jupyter-recipe.json" target="_blank" rel="noopener">
         <img src="https://saturncloud.io/images/embed/run-in-saturn-cloud.svg" alt="Run in Saturn Cloud"/>
     </a>
 </p>
