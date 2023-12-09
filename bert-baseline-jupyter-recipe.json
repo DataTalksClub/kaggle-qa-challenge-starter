@@ -1,0 +1,35 @@
+{
+    "schema_version": "2023.09.01",
+    "type": "workspace",
+    "spec": {
+      "name": "bert-baseline",
+      "description": "",
+      "image": "community/saturncloud/saturn-python-pytorch:2023.09.01",
+      "instance_type": "g4dnxlarge",
+      "environment_variables": {},
+      "working_directory": "/home/jovyan/workspace",
+      "extra_packages": {
+        "pip": {
+          "install": "kaggle transformers"
+        }
+      },
+      "start_script": "",
+      "git_repositories": [],
+      "secrets": [
+        {
+          "location": "/home/jovyan/.kaggle/kaggle.json",
+          "type": "file",
+          "description": "",
+          "owner": "community/alexey",
+          "name": "kaggle"
+        }
+      ],
+      "shared_folders": [],
+      "ide": "jupyter",
+      "disk_space": "2Gi",
+      "auto_shutoff": "1 hour",
+      "start_ssh": false,
+      "use_spot_instance": false,
+      "expose_app_port": false
+    }
+  }
