@@ -14,7 +14,16 @@
         }
       },
       "start_script": "",
-      "git_repositories": [],
+      "git_repositories": [
+        {
+          "url": "git@github.com:DataTalksClub/kaggle-qa-challenge-starter.git",
+          "path": "/home/jovyan/workspace/kaggle-qa-challenge-starter",
+          "public": true,
+          "on_restart": "preserve changes",
+          "reference": null,
+          "reference_type": "branch"
+        }
+      ],
       "secrets": [
         {
           "location": "/home/jovyan/.kaggle/kaggle.json",
